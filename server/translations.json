@@ -1,0 +1,37 @@
+{
+  "en": {
+    "White-out": "White-out",
+    "board_name_placeholder": "Name of the board…",
+    "circle": "Circle",
+    "click_to_toggle": "click to toggle",
+    "click_to_zoom": "Click to zoom in\nPress shift and click to zoom out",
+    "collaborative_whiteboard": "Collaborative whiteboard",
+    "color": "Color",
+    "configuration": "Configuration",
+    "create_private_board": "Create a private board",
+    "ellipse": "Ellipse",
+    "eraser": "Eraser",
+    "grid": "Grid",
+    "hand": "Hand",
+    "download": "Download",
+    "index_title": "Welcome to the free online whiteboard WFR!",
+    
+    "keyboard_shortcut": "keyboard shortcut",
+    "loading": "Loading",
+    "menu": "Menu",
+    "mousewheel": "mouse wheel",
+    "mover": "Mover",
+    "named_private_board_description": "You can also create a <strong>named private board</strong>, with a custom URL, that will be accessible to all those who know its name.",
+    "opacity": "Opacity",
+    "pencil": "Pencil",
+    "private_board_description": "You can create a <b>private board</b> with a random name, that will be accessible only by its link. Use this if you want to share private information.",
+    "rectangle": "Rectangle",
+    "share_instructions": "To collaborate on a drawing in real time with someone, just send them its URL.",
+    "size": "Size",
+    "square": "Square",
+    "straight_line": "Straight line",
+    "text": "Text",
+    "tools": "Tools",
+    "zoom": "Zoom"
+  }
+}

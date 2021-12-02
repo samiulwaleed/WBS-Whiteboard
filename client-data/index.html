@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{language}}">
+
+<head>
+	<meta charset="utf-8" />
+	<title>WFR — {{translations.collaborative_whiteboard}}</title>
+	<link rel="stylesheet" href="index.css" />
+	
+	<link rel="icon" type="image/x-icon" sizes="16x16" href="favicon.ico">
+	<link rel="apple-touch-icon" href="favicon.svg">
+	<link rel="mask-icon" href="favicon.svg" color="black">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	
+	<link rel="manifest" href="manifest.json">
+	<meta name="theme-color" content="#C4DFFF" />
+</head>
+
+<body>
+
+	<header>
+		<h1>WFR-LEARNING-WHITEBOARD</h1>
+		
+	</header>
+
+	<main>
+		<div>
+			<p>{{{translations.private_board_description}}}</p>
+			<a href="random" class="WFR-button">{{{translations.create_private_board}}}</a>
+		</div>
+
+
+		<div>
+			<p><label for="board">{{{translations.named_private_board_description}}}</label></p>
+			<form action="boards" method="GET">
+				<input type="text" id="board" name="board" required placeholder="{{{translations.board_name_placeholder}}}" />
+				<input type="submit" value="Go">
+			</form>
+		</div> 
+
+		
+		<div id="recent-boards" class="hidden">
+			<h3>{{{translations.recent_boards}}}</h3>
+		</div>
+	</main>
+
+</body>
+
+
+</html>
